@@ -15,8 +15,8 @@ $ pip install -r requirements.txt
 
 # Usage
 
->>>data_ibge_tse = ScrapingData(city='São Pedro', state='SP')
+* data_ibge_tse = ScrapingData(city='São Pedro', state='SP')
 
->>>data_ibge_tse.results
+* data_ibge_tse.results
 
 > {'year_estimed': '2019', 'value_estimed': '35653', 'year_censo': '2010', 'value_censo': '31662', 'city': 'SÃO PEDRO', 'electorate': '25.443', 'year_electorate': '2019', 'month_electorate': '201909'}
