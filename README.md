@@ -2,8 +2,8 @@ Data-ibge-tse
 
 Com nome da cidade e sigla do estado. 
 
-Do ibge tem o retorno do ultimo ano do censo feito e populaÁ„o, tambÈm o ultimo calculo de estimativa de populaÁ„o e o ano dessa estimativa.
-Do tse  tem o retorno do mais recente quantitativo do eleitorado, mÍs e ano.
+Do ibge tem o retorno do ultimo ano do censo feito e popula√ß√£o, tamb√©m o ultimo calculo de estimativa de popula√ß√£o e o ano dessa estimativa.
+Do tse  tem o retorno do mais recente quantitativo do eleitorado, m√™s e ano.
 
 Install
 
@@ -13,7 +13,7 @@ $ pip install -r requirements.txt
 
 Usage
 
->>> data_ibge_tse = ScrapingData(city='S„o Pedro', state='SP')
->>> data_ibge_tse.results
+- data_ibge_tse = ScrapingData(city='S√£o Pedro', state='SP')
+- data_ibge_tse.results
 
-{'year_estimed': '2019', 'value_estimed': '35653', 'year_censo': '2010', 'value_censo': '31662', 'city': 'S√O PEDRO', 'electorate': '25.443', 'year_electorate': '2019', 'month_electorate': '201909'}
+{'year_estimed': '2019', 'value_estimed': '35653', 'year_censo': '2010', 'value_censo': '31662', 'city': 'S√ÉO PEDRO', 'electorate': '25.443', 'year_electorate': '2019', 'month_electorate': '201909'}
