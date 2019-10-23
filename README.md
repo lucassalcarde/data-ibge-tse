@@ -1,11 +1,11 @@
-Data-ibge-tse
+# Data-ibge-tse
 
 Com nome da cidade e sigla do estado. 
 
 Do ibge tem o retorno do ultimo ano do censo feito e população, também o ultimo calculo de estimativa de população e o ano dessa estimativa.
 Do tse  tem o retorno do mais recente quantitativo do eleitorado, mês e ano.
 
-Install
+# Install
 
 - python 3
 
@@ -13,7 +13,7 @@ $ git clone git://github.com/lucassalcarde/data-ibge-tse.git
 
 $ pip install -r requirements.txt
 
-Usage
+# Usage
 
 >>> data_ibge_tse = ScrapingData(city='São Pedro', state='SP')
 
